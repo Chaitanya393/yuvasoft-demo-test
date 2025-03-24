@@ -1,0 +1,124 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px;
+}
+
+.form-container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-toggle {
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #eee;
+}
+
+.form-toggle button {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+    cursor: pointer;
+}
+
+.form-toggle button:first-child {
+    color: #764ba2;
+    border-bottom: 2px solid #764ba2;
+}
+
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #764ba2;
+    box-shadow: 0 0 0 2px rgba(118, 75, 162, 0.1);
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background: #764ba2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #667eea;
+    transform: translateY(-2px);
+}
+
+
+span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+
+span button {
+    background: none;
+    color: #764ba2;
+    padding: 0;
+    width: auto;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+span button:hover {
+    background: none;
+}
+
+
+.error {
+    color: #ff3333;
+    background: #ffe6e6;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+@media (max-width: 500px) {
+    .form-container {
+        padding: 20px;
+    }
+
+    .form-toggle button {
+        padding: 10px;
+    }
+}
