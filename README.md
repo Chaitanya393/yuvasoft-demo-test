@@ -1,14 +1,8 @@
-# Job Management System
+# Login and Form System
 
-A React-based job management system with user authentication and persistent data storage using Redux Persist.
 
-## Features
 
-- User Authentication (Login)
-- Protected Routes
-- Job Management (Create, Read, Delete)
-- Persistent Data Storage using Redux Persist
-- Responsive Design
+
 
 ## Tech Stack
 
@@ -22,7 +16,7 @@ A React-based job management system with user authentication and persistent data
 
 1. Clone the repository
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/Chaitanya393/yuvasoft-demo-test.git
 ```
 
 2. Install dependencies
@@ -47,16 +41,16 @@ npm start
 - Simple login system
 - Persistent user session
 
-### Job Management
-- Add new jobs with details:
+### Form Management
+- Add new entries with details:
   - Candidate Name
   - Age
   - Job Title
   - Description
   - Salary
-- View all jobs in a clean, card-based layout
-- Delete jobs
-- Persistent job data using Redux Persist
+- View all entries in a clean, card-based layout
+- Delete entries
+- Persistent data using Redux Persist
 
 ### UI/UX
 - Responsive design
