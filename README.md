@@ -1,17 +1,5 @@
 # Login and Form System
 
-
-
-
-
-## Tech Stack
-
-- React
-- Redux Toolkit
-- Redux Persist
-- React Router DOM
-- Modern CSS
-
 ## Getting Started
 
 1. Clone the repository
@@ -34,29 +22,12 @@ npm start
 - Email: user@example.com
 - Password: 1234
 
-## Features
 
-### Authentication
 - Protected routes using React Router
 - Simple login system
 - Persistent user session
 
-### Form Management
-- Add new entries with details:
-  - Candidate Name
-  - Age
-  - Job Title
-  - Description
-  - Salary
-- View all entries in a clean, card-based layout
-- Delete entries
-- Persistent data using Redux Persist
 
-### UI/UX
-- Responsive design
-- Modern and clean interface
-- Form validation
-- Confirmation dialogs for important actions
 
 ## Project Structure
 
